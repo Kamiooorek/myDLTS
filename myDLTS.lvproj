@@ -31,6 +31,9 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 2600 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2600 Series/Keithley 2600 Series.lvlib"/>
 				<Item Name="Lake Shore 325.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore 325/Lake Shore 325.lvlib"/>
+				<Item Name="Lake Shore 335.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore 335/Lake Shore 335.lvlib"/>
+				<Item Name="Lake Shore Cryotronics 331.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore Cryotronics 331/Lake Shore Cryotronics 331.lvlib"/>
+				<Item Name="Lake Shore Cryotronics 332.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore Cryotronics 332/Lake Shore Cryotronics 332.lvlib"/>
 				<Item Name="Zurich Instruments LabOne.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Zurich Instruments LabOne.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
@@ -580,7 +583,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{33AD169B-19E0-443A-A7C7-955350E881B5}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">myDLTS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/myDLTS/myDLTS.exe</Property>
@@ -764,6 +767,19 @@
 				<Property Name="Source[1].tag" Type="Ref">/My Computer/myDLTS_user_manual.pdf</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
+			<Item Name="myDLTS Project Zip" Type="Zip File">
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="BuildName" Type="Str">myDLTS Project Zip</Property>
+				<Property Name="Comments" Type="Str"></Property>
+				<Property Name="DestinationID[0]" Type="Str">{273C5F22-7BB5-4327-B5E0-C6649CAF1139}</Property>
+				<Property Name="DestinationItemCount" Type="Int">1</Property>
+				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
+				<Property Name="IncludedItemCount" Type="Int">1</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/My Computer</Property>
+				<Property Name="IncludeProject" Type="Bool">true</Property>
+				<Property Name="Path[0]" Type="Path">../../builds/myDLTS/myDLTS Project Zip/myDLTS.zip</Property>
+				<Property Name="ZipBase" Type="Str">NI_zipbasedefault</Property>
 			</Item>
 		</Item>
 	</Item>
