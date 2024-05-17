@@ -5,6 +5,7 @@
 myDLTS is a GUI based application created with a purpose of being an user friendly measurement platform, which enables easy DLTS measurements on Zurich Instruments MFIA hardware, and provides conivinient access to complimentary techniques (C-V, I-V). The application relieves the user of controlling the equipment, data acquisition and storage.
 
 > This software was published in the SoftwareX journal. If you publish the results obtained using the myDLTS app, please cite the following [article](https://doi.org/10.1016/J.SOFTX.2024.101679):
+> 
 > Kaim, A. & Gwóźdź, K. (2024). myDLTS: LabVIEW based software for deep level transient spectroscopy using impedance analyser. *SoftwareX*, *26*, 101679. https://doi.org/10.1016/J.SOFTX.2024.101679
 
 ## Hardware compatibility
