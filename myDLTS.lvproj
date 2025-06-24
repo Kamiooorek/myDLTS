@@ -19,9 +19,7 @@
 		<Item Name="Instrument Drivers" Type="Folder" URL="../Instrument Drivers">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="myDLTS icon" Type="Folder" URL="../../../../../OneDrive - PWr/OneDrive - Politechnika Wroclawska/Programy/mydlts/myDLTS icon">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="myDLTS icon" Type="Folder"/>
 		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -32,6 +30,18 @@
 		<Item Name="myDLTS_user_manual.pdf" Type="Document" URL="../myDLTS_user_manual.pdf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="KE26XX Config Source &amp; Measure.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2600 Series/Examples/KE26XX Config Source &amp; Measure.vi"/>
+				<Item Name="KE26XX Factory Pulse Script Usage.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2600 Series/Examples/KE26XX Factory Pulse Script Usage.vi"/>
+				<Item Name="KE26XX Factory Pulse Usage.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2600 Series/Examples/KE26XX Factory Pulse Usage.vi"/>
+				<Item Name="KE26XX Real Converter Usage.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2600 Series/Examples/KE26XX Real Converter Usage.vi"/>
+				<Item Name="KE26XXA Advanced Sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2600 Series/Examples/KE26XXA Advanced Sweep.vi"/>
+				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
+				<Item Name="Keithley 2600 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2600 Series/Keithley 2600 Series.lvlib"/>
+				<Item Name="Lake Shore 325.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore 325/Lake Shore 325.lvlib"/>
+				<Item Name="Lake Shore 335.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore 335/Lake Shore 335.lvlib"/>
+				<Item Name="Lake Shore 336.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore 336/Lake Shore 336.lvlib"/>
+				<Item Name="Lake Shore Cryotronics 331.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore Cryotronics 331/Lake Shore Cryotronics 331.lvlib"/>
+				<Item Name="Lake Shore Cryotronics 332.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Lake Shore Cryotronics 332/Lake Shore Cryotronics 332.lvlib"/>
 				<Item Name="ziExample-InitializeParameters.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-InitializeParameters.vi"/>
 				<Item Name="ziExample-Module-DAQ.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-Module-DAQ.vi"/>
 				<Item Name="ziExample-Module-Sweeper.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-Module-Sweeper.vi"/>
