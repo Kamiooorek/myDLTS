@@ -21,7 +21,7 @@ Models Tested: MFLI, MFIA, HF2LI, HF2IS, UHFLI, UHFAWG, UHFQA, HDAWG, PQSC, SHFL
 <br>
 Interfaces: USB, TCP/IP, all via ziServer and ziDataServer
 <br>
-Firmware Revisions Tested: 25.01
+Firmware Revisions Tested: 25.10
 <br>
 <br>
 Certified: No
@@ -31,11 +31,11 @@ NI Supported: No
 Source Code Available: No
 <br>
 <br>
-Driver Revision: 25.01
+Driver Revision: 25.10
 <br>
 Original Release Date: 08/04/2009
 <br>
-Current Revision Date: 30/01/2025
+Current Revision Date: 30/10/2025
 </p>
 
 <h4>2. Required Software</h4>
@@ -43,7 +43,7 @@ Current Revision Date: 30/01/2025
       Install LabOne prior to use of this LabVIEW driver.
       <br>
 <br>
-      LabOne v25.01 or later
+      LabOne v25.10 or later
       <br>
 <br>
 Windows LabVIEW 2009 or later, x86 and 64-bit version<br>
@@ -63,6 +63,20 @@ Include instrument functionality not supported by the driver or known issues as 
 <h4>4. Revision History</h4>
 <p>
 The latest version of this and other LabVIEW and LabWindows/CVI instrument drivers can be downloaded at the <a  href="http://www.ni.com/idnet">Instrument Driver Network</a>.<br>
+</p>
+<h5>      v25.10, 2025-10-30    </h5>
+<p>
+Updated API interface for LabOne 25.10.<br>
+</p>
+<h5>      v25.07, 2025-07-30    </h5>
+<p>
+Updated API interface for LabOne 25.07.<br>
+</p>
+<h5>      v25.04, 2025-04-29    </h5>
+<p>
+Updated API interface for LabOne 25.04.<br>
+ziSetValueDoubleArray.vi, ziSetValueComplexArray.vi and ziSetValueBinaryArray.vi are now implemented using set transactions. This provides better performance and safety.<br>
+Fixed the example ziExample-UHFLI-Module-AWG.vi to set the averager method to uniform.<br>
 </p>
 <h5>      v25.01, 2025-01-30    </h5>
 <p>
