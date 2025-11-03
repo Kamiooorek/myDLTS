@@ -19,7 +19,9 @@
 		<Item Name="Instrument Drivers" Type="Folder" URL="../Instrument Drivers">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="myDLTS icon" Type="Folder"/>
+		<Item Name="myDLTS icon" Type="Folder" URL="../myDLTS icon">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -644,7 +646,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{33AD169B-19E0-443A-A7C7-955350E881B5}</Property>
-				<Property Name="Bld_version.build" Type="Int">33</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">myDLTS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/myDLTS/myDLTS.exe</Property>
@@ -655,7 +657,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/myDLTS icon/myDLTS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1A65D82B-7A4C-4712-90D2-A7D49110B891}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3D443A3C-45B3-45ED-88D9-34F0630DA811}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -664,10 +666,10 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/myDLTS_user_manual.pdf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/myDLTS icon/myDLTS file.ico</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/myDLTS icon/myDLTS.ico</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/myDLTS icon/myDLTS.ico</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/myDLTS icon/myDLTS file.ico</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Politechnika Wrocławska</Property>
