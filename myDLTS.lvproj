@@ -16,6 +16,9 @@
 		<Item Name="Custom devices" Type="Folder" URL="../Custom devices">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Fixers" Type="Folder" URL="../Fixers">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Instrument Drivers" Type="Folder" URL="../Instrument Drivers">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
