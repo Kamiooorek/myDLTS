@@ -15,13 +15,13 @@ Manufacturer: Zurich Instruments, <a href="http://www.zhinst.com">http://www.zhi
 <br>
 Supported Language: LabVIEW
 <br>
-Supported Models: MFLI, MFIA, HF2LI, HF2IS, UHFLI, UHFAWG, UHFQA, HDAWG, PQSC, SHFLI, GHFLI
+Supported Models: MFLI, MFIA, HF2LI, HF2IS, UHFLI, UHFAWG, UHFQA, HDAWG, PQSC, SHFLI, GHFLI, VHFLI
 <br>
-Models Tested: MFLI, MFIA, HF2LI, HF2IS, UHFLI, UHFAWG, UHFQA, HDAWG, PQSC, SHFLI, GHFLI
+Models Tested: MFLI, MFIA, HF2LI, HF2IS, UHFLI, UHFAWG, UHFQA, HDAWG, PQSC, SHFLI, GHFLI, VHFLI
 <br>
 Interfaces: USB, TCP/IP, all via ziServer and ziDataServer
 <br>
-Firmware Revisions Tested: 25.10
+Firmware Revisions Tested: 26.10
 <br>
 <br>
 Certified: No
@@ -31,11 +31,11 @@ NI Supported: No
 Source Code Available: No
 <br>
 <br>
-Driver Revision: 25.10
+Driver Revision: 26.10
 <br>
 Original Release Date: 08/04/2009
 <br>
-Current Revision Date: 30/10/2025
+Current Revision Date: 29/10/2026
 </p>
 
 <h4>2. Required Software</h4>
@@ -43,7 +43,7 @@ Current Revision Date: 30/10/2025
       Install LabOne prior to use of this LabVIEW driver.
       <br>
 <br>
-      LabOne v25.10 or later
+      LabOne v26.10 or later
       <br>
 <br>
 Windows LabVIEW 2009 or later, x86 and 64-bit version<br>
@@ -63,6 +63,31 @@ Include instrument functionality not supported by the driver or known issues as 
 <h4>4. Revision History</h4>
 <p>
 The latest version of this and other LabVIEW and LabWindows/CVI instrument drivers can be downloaded at the <a  href="http://www.ni.com/idnet">Instrument Driver Network</a>.<br>
+</p>
+<h5>      v26.10, 2026-10-29    </h5>
+<p>
+<strong>This is the last version of the LabVIEW driver that officially supports LabVIEW versions as old as 2009.</strong><br>
+Added support for PID sweeps in the Sweeper module. <code>ziModGetSweeperData.vi</code> returns PID results through the new <code>ziTypeModPIDSweeper.ctl</code> type, and the Sweeper example shows how to use it.<br>
+Fixed a bug where reading demodulator sweep results from SHFLI, GHFLI and VHFLI instruments in the Sweeper module failed with a "not supported" error.<br>
+Fixed the Sweeper example to work with SHFLI, GHFLI and VHFLI instruments.<br>
+</p>
+<h5>      v26.07, 2026-07-30    </h5>
+<p>
+Updated API interface for LabOne 26.07.<br>
+Added a new parameter to the <code>ziOpen.vi</code> to allow mismatching versions. It is highly recommended to use matching client and data server versions, but this option can be used to bypass this restriction.<br>
+Removed <code>ziCheckVersion.vi</code> from all VI files. The version check is now handled internally by the client and, by default, fails if the client version does not match the data server version.<br>
+</p>
+<h5>      v26.04, 2026-04-30    </h5>
+<p>
+Updated API interface for LabOne 26.04.<br>
+Supported the PID vector data of SHFLI, GHFLI and VHFLI instruments.<br>
+Introduced the Timeline Module for SHFLI, GHFLI and VHFLI instruments.<br>
+Added support for the Data Streaming Module, providing a smooth user experience for continuous data acquisition.<br>
+Added the example <code>ziExample-Module-DataStreaming.vi</code> to demonstrate the use of the Data Streaming Module.<br>
+</p>
+<h5>      v26.01, 2026-01-29    </h5>
+<p>
+Updated API interface for LabOne 26.01.<br>
 </p>
 <h5>      v25.10, 2025-10-30    </h5>
 <p>

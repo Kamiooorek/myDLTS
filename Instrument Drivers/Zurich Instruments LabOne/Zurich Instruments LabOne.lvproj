@@ -27,6 +27,7 @@
 			<Item Name="ziExample-Module-DAQ_Spectrum.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-Module-DAQ_Spectrum.vi"/>
 			<Item Name="ziExample-Module-DAQ_trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-Module-DAQ_trigger.vi"/>
 			<Item Name="ziExample-Module-DAQ_triggerUtility.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-Module-DAQ_triggerUtility.vi"/>
+			<Item Name="ziExample-Module-DataStreaming.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-Module-DataStreaming.vi"/>
 			<Item Name="ziExample-Module-PIDAdvisor.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-Module-PIDAdvisor.vi"/>
 			<Item Name="ziExample-HDAWG-Module-AWG.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-HDAWG-Module-AWG.vi"/>
 			<Item Name="ziExample-UHFLI-Module-AWG.vi" Type="VI" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Examples/ziExample-UHFLI-Module-AWG.vi"/>
@@ -170,7 +171,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../resource/lvanlys.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

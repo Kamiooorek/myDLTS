@@ -1,4 +1,4 @@
-Zurich Instruments AG 2009-2025
+Zurich Instruments AG 2009-2026
 http://www.zhinst.com
 
 
@@ -34,17 +34,17 @@ See Also
 - For additional information and revision history see
   "Zurich Instruments/Zurich Instruments LabOne Readme.html".
 
-- The LabOne Programming Manual
+- The LabOne API User Manual
   * via a LabOne installation by starting the "Zurich Instruments
-    LabOne App" (LabOne UI) and clicking "Documentation" in the
+    LabOne" (LabOne UI) and clicking "User Manuals" in the
     Session Dialogue of the LabOne User Interface.
-  * or at https://www.zhinst.com/manuals/programming
+  * or at https://docs.zhinst.com/labone_api_user_manual
 
 
 Getting Started
 ===============
 
-See the MFLI, HF2, UHFLI, ... user manual for a tutorial.
+See the Instrument User Manuals at https://docs.zhinst.com for tutorials.
 
 Click Menu "Help" -> "Find Examples...", then search for, e.g., "HF2" to
 see a list of examples.
